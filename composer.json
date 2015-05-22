@@ -1,0 +1,16 @@
+{
+    "name": "phpals/std-utils",
+    "description": "Standard, useful PHP classes and utils",
+    "type": "library",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "StdUtils": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
